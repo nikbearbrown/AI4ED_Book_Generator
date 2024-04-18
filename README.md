@@ -1,6 +1,3 @@
-# AI4ED Book Generator
-
-
 ### Equation of the Model
 The model described by the given statistics is a logistic regression model, commonly used for binary outcomes such as pass/fail scenarios. The equation for this model based on the provided coefficients can be expressed as:
 
@@ -53,6 +50,6 @@ Convert log-odds to probability:
 
 Calculating this gives:
 
-\[ P(\text{pass}) = \frac{e^{-1.0}}{1 + e^{-1.0}} \approx \frac{0.368}{1 + 0.368} \approx 0.268 \]
+\[ P(\text{pass}) = \frac{e{-1.0}}{1 + e^{-1.0}} \approx \frac{0.368}{1 + 0.368} \approx 0.268 \]
 
 Thus, with no study hours, the probability of passing is about 26.8%, and with two hours of study, it increases to about 31%. This analysis provides a basic understanding of the model, although exact significance levels and more precise interpretations would typically require additional statistical output such as p-values or confidence intervals.
